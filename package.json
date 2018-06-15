@@ -23,6 +23,7 @@
     "jquery": "^2.2.4",
     "node-sass": "^4.9.0",
     "node-sass-tilde-importer": "^1.0.2",
-    "popper.js": "^1.14.3"
+    "popper.js": "^1.14.3",
+    "sass-lint": "^1.12.1"
   }
 }

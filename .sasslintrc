@@ -1,0 +1,4 @@
+files:
+  include: 'dist/scss/*.scss'
+  ignore:
+    - 'node_modules/bootstrap/**/*.scss'

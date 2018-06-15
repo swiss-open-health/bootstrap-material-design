@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/swiss-open-health/bootstrap-material-design/issues"
   },
-  "homepage": "https://github.com/swiss-open-health/bootstrap-material-design"
+  "homepage": "https://github.com/swiss-open-health/bootstrap-material-design",
+  "style": "dist/css/bootstrap-material-design.css",
+  "devDependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^2.2.4",
+    "node-sass": "^4.9.0",
+    "node-sass-tilde-importer": "^1.0.2",
+    "popper.js": "^1.14.3"
+  }
 }

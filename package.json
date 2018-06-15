@@ -4,6 +4,7 @@
   "description": "Material Design for Bootstrap",
   "main": "index.js",
   "scripts": {
+    "build:css": "node-sass --importer=node_modules/node-sass-tilde-importer src/scss/bootstrap-material-design.scss dist/css/bootstrap-material-design.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

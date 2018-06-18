@@ -4,7 +4,6 @@
   "description": "Material Design for Bootstrap",
   "main": "index.js",
   "scripts": {
-    "build:css": "node-sass --importer=node_modules/node-sass-tilde-importer src/scss/bootstrap-material-design.scss dist/css/bootstrap-material-design.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,8 +19,9 @@
   "style": "dist/css/bootstrap-material-design.css",
   "devDependencies": {
     "bootstrap": "^4.1.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
     "jquery": "^2.2.4",
-    "node-sass": "^4.9.0",
     "node-sass-tilde-importer": "^1.0.2",
     "popper.js": "^1.14.3",
     "sass-lint": "^1.12.1"

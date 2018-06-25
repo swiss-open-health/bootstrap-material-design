@@ -1,0 +1,29 @@
+//
+// Theme Colors
+//
+$black: #000000;
+
+$primary:       #344955;
+$primary-light: #4A6572;
+$primary-dark:  #232F34;
+$secondary:     #F9AA33; 
+
+$theme-colors: (
+  "primary":       $primary,
+  "primary-light": $primary-light,
+  "primary-dark":  $primary-dark,
+  "secondary":     $secondary,
+);
+
+$body-bg: #edf0f2;
+
+// Shadow colors
+$shadow:       transparentize($black, 0.5);
+$shadow-light: transparentize($black, 0.75);
+$shadow-dark:  transparentize($black, 0.25);
+
+$shadow-colors: (
+  "shadow":       $shadow,
+  "shadow-light": $shadow-light,
+  "shadow-dark":  $shadow-dark
+);

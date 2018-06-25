@@ -1,0 +1,3 @@
+$shadows-enabled: true;
+
+$default-box-shadow: 0 2px 4px map-get($shadow-colors, 'shadow') !default;
